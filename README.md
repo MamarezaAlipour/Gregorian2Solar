@@ -12,8 +12,8 @@ shamsi_part(TEXT, DATE)
 
 Examples:
 ```sql
-SELECT shamsi_format(now()); -->   1399/07/08 23:45:37
-SELECT shamsi_format(now(), false); -->   1399/07/08
+SELECT shamsi_format(now()); -->   1400/10/04 23:45:37
+SELECT shamsi_format(now(), false); -->   1400/10/04
 SELECT shamsi_format('2019-07-07', false); -->  1398/04/16
 SELECT shamsi_format('2021-03-20'); -->  1399/12/30 00:00:00
 SELECT shamsi_format('2021-03-20'::date); -->  1399/12/30
