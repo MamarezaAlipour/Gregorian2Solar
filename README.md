@@ -39,25 +39,25 @@ SELECT shamsi_part('dow', '2019-07-07'); --> 4
 # Installation
 
 Dependencies:
-```bash
+```shell
 sudo apt install postgresql-server-dev-14
 ```
 
 Run make to build and install
-```bash
+```shell
 make
 sudo make install
 ```
 
 Run this command in your psql shell:
-```bash
+```shell
 \d your_db_name
 
 > CREATE EXTENSION jalali_utils;
 ```
 
 # Running tests
-```bash
+```shell
 make installcheck
 ```
 # Gregorian2Solar
