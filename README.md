@@ -60,4 +60,3 @@ Run this command in your psql shell:
 ```console
 make installcheck
 ```
-# Gregorian2Solar
