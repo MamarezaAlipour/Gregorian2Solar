@@ -8,7 +8,7 @@ LANGUAGE C STRICT;
 CREATE OR REPLACE FUNCTION shamsi_format(
     date
 )
-RETURNS TEXT AS 'MODULE_PATHNAME','shamsi_format__date'
+RETURNS TEXT AS 'MODULE_PATHNAME','shamsi_format_date'
 LANGUAGE C STRICT;
 
 
