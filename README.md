@@ -53,7 +53,7 @@ Run this command in your psql shell:
 ```console
 \d your_db_name
 
-> CREATE EXTENSION jalali_utils;
+> CREATE EXTENSION shamsi_ext;
 ```
 
 # Running tests
